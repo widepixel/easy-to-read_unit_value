@@ -1,5 +1,9 @@
 <?php
 	
+	$file = "audio.mp3";
+
+	echo getFileSize(filesize($file));
+
 	function getFileSize($bytes){
 		
 		$ui = Array("b", "kb", "mb", "gb", "tb", "pb", "eb", "zb", "yb");
